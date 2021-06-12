@@ -1,5 +1,5 @@
 // Select the h1 element and store it in a variable named heading.
-
+   let heading = document.querySelectorAll('h1');
 // Check the typeof heading and log it.
 
 // Change the color of heading to black.
