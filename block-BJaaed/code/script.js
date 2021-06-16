@@ -116,10 +116,7 @@
       },
     ];
 
-
-
-  let ul  = document.querySelector('ul');
-  ul.style.textAlign = "center";
+    let ul  = document.querySelector('ul');
 
   books.forEach((ele) => {
 
@@ -128,27 +125,22 @@
      div.style.width = '31%';
      div.style.margin = "12px 12px";
      div.style.textAlign = "center";
-    //  div.style.height = '35%';
-     
-     
-
-
+    
      let img = document.createElement('img');
      img.src= ele.image;
+     img.alt = ele.title;
      img.style.width = '30%';
      img.style.marginTop = '20px';
 
      let h2 = document.createElement('h2') ;
      h2.innerText = ele.title;
      h2.style.textAlign = 'center';
-     
      h2.style.fontSize = "22px";
 
      let p = document.createElement('p');
      p.innerText = ele.author;
      p.style.color = "grey";
      
-
      let btn = document.createElement('button');
      btn.append('Buy Now');
      btn.style.backgroundColor = '#377E80';
@@ -159,7 +151,5 @@
      btn.style.marginBottom = '10px';
     
      div.append(img, h2, p, btn);
-      
-     ul.append(div);
-     
+    ul.append(div);
   });
