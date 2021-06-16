@@ -19,3 +19,11 @@ h1,
 h2 {
   text-align: center;
 }
+header{
+  width: 100%;
+  background-color: #4075D5;
+  padding: 27px 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 48px;
+}
