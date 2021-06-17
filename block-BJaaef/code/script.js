@@ -17,7 +17,7 @@ let cardsHtml = allPeople.map((person)  => {
               src=${person.image}
               alt=${person.name}
             />
-            <h2>${person.name}</h2>
+            <h2 class = "sub-heading">${person.name}</h2>
             </div>
      
     <p>${person.description}
