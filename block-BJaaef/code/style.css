@@ -19,11 +19,56 @@ h1,
 h2 {
   text-align: center;
 }
+.flex {
+  display:  flex;
+  justify-content: space-evenly;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.card{
+  padding: 10px;
+  width: 30%;
+  margin:  23px 23px;
+  list-style: none;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.sub-heading{
+  margin-left: 20px;
+}
+p{
+  font-size: 18px;
+}
+.info img{
+  border-radius: 50%;
+  border : 1px solid #297569;
+}
+.info {
+  display: flex;
+  /* justify-content:space-between; */
+  align-items: center;
+}
 header{
   width: 100%;
   background-color: #4075D5;
-  padding: 27px 0;
+  padding: 8px 0;
   color: #ffffff;
   text-align: center;
-  font-size: 48px;
+}
+
+.btn {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 25px;
+  color: #708FFF;
+  text-decoration: none;
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+  display: block;
+  background-color: #E7EDFD;
+  margin: 0 auto;
+  border-radius: 5px;
 }
